@@ -1,6 +1,5 @@
 function Bigger() {
-    let txt = document.getElementById('text');
-    txt.style.fontSize = '24pt';
+    document.getElementById.style.fontSize = '24pt';
     alert('Hello, World!');
 
 }
