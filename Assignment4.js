@@ -15,7 +15,7 @@ function boringbetty() {
     var txt = document.getElementById('textbox');
     txt.style.fontWeight = 'normal';
     txt.style.color = '#000000'
-    txt.style.textDecoration = 'inline-block';
+    txt.style.textDecoration = 'none';
 }   
 
 function Moo() {
