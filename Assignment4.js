@@ -1,11 +1,11 @@
 function bigger() {
-    document.getElementById('textbox').style.fontSize = "24pt";
+    document.getElementById('box').style.fontSize = "24pt";
     window.alert('Hello, World!');
 
 }
 
 function fancyschmancy() {
-    var txt = document.getElementById('textbox');
+    var txt = document.getElementById('box');
     txt.style.fontWeight = 'bold';
     txt.style.color = '#0000FF';
     txt.style.textDecoration = 'underline';
