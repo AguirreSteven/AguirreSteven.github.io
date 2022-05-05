@@ -1,5 +1,5 @@
-function Bigger() {
-    document.getElementById.style.fontSize = '24pt';
+function bigger() {
+    document.getElementById("text").style.fontSize = "24pt";
     alert('Hello, World!');
 
 }
