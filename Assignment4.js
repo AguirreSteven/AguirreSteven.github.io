@@ -14,6 +14,8 @@ function fancyschmancy() {
 function boringbetty() {
     var txt = document.getElementById('textbox');
     txt.style.fontWeight = 'normal';
+    txt.style.color = '#000000'
+    txt.style.textDecoration = 'inline-block';
 }   
 
 function Moo() {
