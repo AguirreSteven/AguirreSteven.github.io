@@ -9,6 +9,7 @@ function fancyschmancy() {
     txt.style.fontWeight = 'bold';
     txt.style.color = '#0000FF';
     txt.style.textDecoration = 'underline';
+    txt.style.font = 'Comic Sans MS'
 }
 
 function boringbetty() {
@@ -16,6 +17,7 @@ function boringbetty() {
     txt.style.fontWeight = 'normal';
     txt.style.color = '#000000'
     txt.style.textDecoration = 'none';
+    txt.style.font = 'Arial'
 }   
 
 function Moo() {
