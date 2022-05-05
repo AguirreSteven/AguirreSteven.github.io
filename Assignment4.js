@@ -12,7 +12,7 @@ function fancyschmancy() {
 }
 
 function boringbetty() {
-    var txt = document.getElementById('textbox');
+    var txt = document.getElementById('box');
     txt.style.fontWeight = 'normal';
     txt.style.color = '#000000'
     txt.style.textDecoration = 'none';
