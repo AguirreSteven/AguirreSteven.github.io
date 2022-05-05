@@ -23,10 +23,10 @@ function boringbetty() {
     txt.style.fontSize = '1em'
 }   
 
-function Moo() {
+function moo() {
     var txt = document.getElementById('box');
     txt.style.textTransform = 'uppercase';
-    var split = txt.value.split(".");
+    let split = txt.value.split(".");
     txt.value = split.join('-Moo.');
 
 }
