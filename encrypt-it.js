@@ -15,12 +15,49 @@
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
-    // Note: In this function, we usually want to set up our event handlers
-    // for UI elements on the page.
+
+    let encrypt = document.getElementById('encrypt-it');
+    encrypt.addEventListener('click',encryptFunc);
+
+    let reset = document.getElementById('reset');
+    reset.addEventListener('click',resetFunc);
+
+    let font12 = document.getElementById('f12');
+    font12.addEventListener('click',f12);
+
+    let font24 = document.getElementById('f24');
+    font24.addEventListener('click',f24);
+
+    let cap = document.getElementById('all-caps')
+    cap.addEventListener('click',allCap)
+
+
   }
 
-  // Add any other functions in this area (you should not implement your
-  // entire program in the init function, for similar reasons that
-  // you shouldn't write an entire Java program in the main method).
+  function encryptFunc() {
+    var cipherType = document.getElementById('cipher-type').value;
+    var inputText = document.getElementById('input-text').value;
+    var result = document.getElementById('result');
+    
+        
+  }
 
-})();
+  function resetFunc() {
+
+  }
+
+  function f12() {
+
+  }
+
+  function f24() {
+
+  }
+
+  function allCap() {
+
+  }
+
+
+
+});
