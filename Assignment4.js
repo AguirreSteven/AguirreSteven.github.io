@@ -24,5 +24,9 @@ function boringbetty() {
 }   
 
 function Moo() {
-    
+    var txt = document.getElementById('box');
+    txt.style.textTransform = 'uppercase';
+    var split = txt.value.split(".");
+    txt.value = split.join('-Moo.');
+
 }
