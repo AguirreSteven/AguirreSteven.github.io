@@ -38,24 +38,35 @@
     var cipherType = document.getElementById('cipher-type').value;
     var inputText = document.getElementById('input-text').value;
     var result = document.getElementById('result');
-    
+
         
   }
 
   function resetFunc() {
-
+    let x = document.getElementById('input-text');
+    x.document.getElementById('input-text').value = '';
+    x.document.getElementById('result').value = '';
   }
 
   function f12() {
-
+    if (document.getElementById('f12').checked) {
+        let x = document.getElementById('input-text');
+        x.style.fontsize = '12pt';
+    }
   }
 
   function f24() {
-
+    if (document.getElementById('f24').checked) {
+        let x = document.getElementById('input-text');
+        x.style.fontsize = '24pt';
   }
+}
 
   function allCap() {
+    let cap = document.getElementById("all-caps");
+    if (cap.checked) {
 
+    }
   }
 
 
