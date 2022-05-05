@@ -44,8 +44,9 @@
 
   function resetFunc() {
     let x = document.getElementById('input-text');
-    x.document.getElementById('input-text').value = '';
-    x.document.getElementById('result').value = '';
+    let y = document.getElementById('result');
+    x.value = '';
+    y.value = '';
   }
 
   function f12() {
