@@ -65,10 +65,17 @@
 }
 
   function allCap() {
-    var x = document.getElementById("input-text");
-    var y = document.getElementById('result');
-    x.style.textTransform = "uppercase";
-    y.style.textTransform = "uppercase";
+    if (document.getElementById('all-caps').checked) {
+        var x = document.getElementById("input-text");
+        var y = document.getElementById('result');
+        x.style.textTransform = "uppercase";
+        y.style.textTransform = "uppercase";
+    } else {
+        var x = document.getElementById("input-text");
+        var y = document.getElementById('result');
+        x.style.textTransform = "lowercase";
+        y.style.textTransform = "lowercase";
+    }
 
   }
 
