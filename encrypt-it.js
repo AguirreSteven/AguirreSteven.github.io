@@ -68,7 +68,7 @@
     var x = document.getElementById('input-text');
     var y = document.getElementById('result');
     x.value = '';
-    y.value = '';
+    y.textContent = '';
   }
 
   function f12() {
