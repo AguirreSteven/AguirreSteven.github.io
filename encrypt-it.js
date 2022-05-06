@@ -43,7 +43,7 @@
     console.log('test');
     var x = document.getElementById('input-text');
     var y = document.getElementById('result');
-    x.value = 'x';
+    x.value = '';
     y.value = '';
   }
 
