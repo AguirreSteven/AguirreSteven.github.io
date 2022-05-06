@@ -1,18 +1,14 @@
-/*
- * Starter file 
- */
-
-console.log('Window loaded');
 
 (function() {
   "use strict";
+  window.addEventListener("load", init);
+  console.log('Window loaded');
 
   /**
    * The starting point in our program, setting up a listener
    * for the "load" event on the window, signalling the HTML DOM has been constructed
    * on the page. When this event occurs, the attached function (init) will be called.
    */
-  window.addEventListener("load", init);
 
   /**
    * TODO: Write a function comment using JSDoc.
@@ -74,4 +70,4 @@ console.log('Window loaded');
 
 
 
-});
+})();
