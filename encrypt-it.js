@@ -1,6 +1,8 @@
 /*
  * Starter file 
  */
+
+console.log('Window loaded');
 (function() {
   "use strict";
 
@@ -35,14 +37,13 @@
   }
 
   function encryptFunc() {
-    var cipherType = document.getElementById('cipher-type').value;
-    var inputText = document.getElementById('input-text').value;
-    var result = document.getElementById('result');
+
 
         
   }
 
   function resetFunc() {
+    console.log('test');
     let x = document.getElementById('input-text');
     let y = document.getElementById('result');
     x.value = '';
