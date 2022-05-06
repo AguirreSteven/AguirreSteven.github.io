@@ -34,13 +34,13 @@
   }
 
   function encryptFunc() {
-
+      
+    
 
         
   }
 
   function resetFunc() {
-    console.log('test');
     var x = document.getElementById('input-text');
     var y = document.getElementById('result');
     x.value = '';
@@ -48,24 +48,26 @@
   }
 
   function f12() {
-    if (document.getElementById('f12').checked) {
         var x = document.getElementById('input-text');
+        var y = document.getElementById('result');
         x.style.fontsize = '12pt';
-    }
+        y.style.fontsize = '12pt';
+
   }
 
   function f24() {
-    if (document.getElementById('f24').checked) {
         var x = document.getElementById('input-text');
+        var y = document.getElementById('result');
         x.style.fontsize = '24pt';
-  }
+        y.style.fontSize = '24pt'
 }
 
   function allCap() {
-    var cap = document.getElementById("all-caps");
-    if (cap.checked) {
+    var x = document.getElementById("input-text");
+    var y = document.getElementById('result');
+    x.style.textTransform = "uppercase";
+    y.style.textTransform = "uppercase";
 
-    }
   }
 
 
