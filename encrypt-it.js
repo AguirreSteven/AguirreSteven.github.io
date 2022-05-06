@@ -34,10 +34,42 @@
   }
 
   function encryptFunc() {
+    var cipherType = document.getElementById('cipher-type');
+    var text = document.getElementById('input-text');
+    var val = val.value;
 
+    if (cipherType.value == 'shift') {
+        var res = shiftCipher(text);
+        document.getElementById('result').textContent = res;
+    } else {
+        var res = random(text);
+        document.getElementById('result').textContent = res;
+    }
     
 
         
+  }
+
+  function shiftCipher(text) {
+    text = text.toLowerCase();
+    let result = "";
+    for (let i = 0; i < text.length; i++) {
+      if (text[i] < 'a' || text[i] > 'z') {
+        result += text[i];
+      } else if (text[i] == 'z') {
+        result += 'a';
+      } else { // letter is between 'a' and 'y'
+        let letter = text.charCodeAt(i);
+        let resultLetter = String.fromCharCode(letter + 1);
+        result += resultLetter;
+      }
+    }
+    return result;
+  }
+
+  function random(text) {
+      text = text.toLowerCase();
+      
   }
 
   function resetFunc() {
