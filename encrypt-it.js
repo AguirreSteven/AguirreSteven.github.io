@@ -34,7 +34,7 @@
   }
 
   function encryptFunc() {
-      
+
     
 
         
@@ -48,18 +48,20 @@
   }
 
   function f12() {
-        var x = document.getElementById('input-text');
-        var y = document.getElementById('result');
-        x.style.fontsize = '12pt';
-        y.style.fontsize = '12pt';
+    console.log('12 font clicked');
+    var x = document.getElementById('input-text');
+    var y = document.getElementById('result');
+    x.style.fontsize = '12pt';
+    y.style.fontsize = '12pt';
 
   }
 
   function f24() {
-        var x = document.getElementById('input-text');
-        var y = document.getElementById('result');
-        x.style.fontsize = '24pt';
-        y.style.fontSize = '24pt'
+    console.log('24 font clicked');
+    var x = document.getElementById('input-text');
+    var y = document.getElementById('result');
+    x.style.fontsize = '24pt';
+    y.style.fontSize = '24pt';
 }
 
   function allCap() {
