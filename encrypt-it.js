@@ -34,17 +34,10 @@
   }
 
   function encryptFunc() {
-    var cipherType = document.getElementById('cipher-type');
     var text = document.getElementById('input-text');
-    var val = val.value;
-
-    if (cipherType.value == 'shift') {
-        var res = shiftCipher(text);
-        document.getElementById('result').textContent = res;
-    } else {
-        var res = random(text);
-        document.getElementById('result').textContent = res;
-    }
+    var val = text.value;
+    var res = shiftCipher(val);
+    document.getElementById('result').textContent = res;
     
 
         
@@ -69,7 +62,6 @@
 
   function random(text) {
       text = text.toLowerCase();
-      
   }
 
   function resetFunc() {
