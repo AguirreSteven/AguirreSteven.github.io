@@ -19,19 +19,19 @@ console.log('Window loaded');
    */
   function init() {
 
-    let encryptButton = document.getElementById('encrypt-it');
+    var encryptButton = document.getElementById('encrypt-it');
     encryptButton.addEventListener('click',encryptFunc);
 
-    let resetButton = document.getElementById('reset');
-    resetButton.addEventListener('click',resetFunc);
+    var resetButton = document.getElementById('reset');
+    resetButton.addEventListener('click', resetFunc);
 
-    let font12 = document.getElementById('f12');
+    var font12 = document.getElementById('f12');
     font12.addEventListener('click',f12);
 
-    let font24 = document.getElementById('f24');
+    var font24 = document.getElementById('f24');
     font24.addEventListener('click',f24);
 
-    let cap = document.getElementById('all-caps')
+    var cap = document.getElementById('all-caps')
     cap.addEventListener('click',allCap)
 
 
@@ -45,28 +45,28 @@ console.log('Window loaded');
 
   function resetFunc() {
     console.log('test');
-    let x = document.getElementById('input-text');
-    let y = document.getElementById('result');
+    var x = document.getElementById('input-text');
+    var y = document.getElementById('result');
     x.value = 'x';
     y.value = '';
   }
 
   function f12() {
     if (document.getElementById('f12').checked) {
-        let x = document.getElementById('input-text');
+        var x = document.getElementById('input-text');
         x.style.fontsize = '12pt';
     }
   }
 
   function f24() {
     if (document.getElementById('f24').checked) {
-        let x = document.getElementById('input-text');
+        var x = document.getElementById('input-text');
         x.style.fontsize = '24pt';
   }
 }
 
   function allCap() {
-    let cap = document.getElementById("all-caps");
+    var cap = document.getElementById("all-caps");
     if (cap.checked) {
 
     }
