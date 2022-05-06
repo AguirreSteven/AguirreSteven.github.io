@@ -3,6 +3,7 @@
  */
 
 console.log('Window loaded');
+
 (function() {
   "use strict";
 
@@ -18,11 +19,11 @@ console.log('Window loaded');
    */
   function init() {
 
-    let encrypt = document.getElementById('encrypt-it');
-    encrypt.addEventListener('click',encryptFunc);
+    let encryptButton = document.getElementById('encrypt-it');
+    encryptButton.addEventListener('click',encryptFunc);
 
-    let reset = document.getElementById('reset');
-    reset.addEventListener('click',resetFunc);
+    let resetButton = document.getElementById('reset');
+    resetButton.addEventListener('click',resetFunc);
 
     let font12 = document.getElementById('f12');
     font12.addEventListener('click',f12);
@@ -46,7 +47,7 @@ console.log('Window loaded');
     console.log('test');
     let x = document.getElementById('input-text');
     let y = document.getElementById('result');
-    x.value = '';
+    x.value = 'x';
     y.value = '';
   }
 
